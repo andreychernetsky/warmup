@@ -1,8 +1,10 @@
 // (0 °C × 9/5) + 32 = 32 °F
-
 module.exports = function warmup(temperature) {
-  return Math.round(temprature * (9/5)+32)
+  return 1.8 * temperature + 32;
 };
+// module.exports = function warmup(temperature) {
+//   return Math.round(temprature * (9/5)+32)
+// };
 
 
 /*
